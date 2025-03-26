@@ -167,10 +167,15 @@ header {
   font-size: 56px;
   letter-spacing: 0.02em;
   line-height: 1.07;
+  text-transform: capitalize;
   text-align: center;
   color: #fff;
   max-width: 496px;
   margin: 0 auto 48px;
+}
+
+.lower-text {
+  text-transform: none;
 }
 
 .hero-page-button {
@@ -310,9 +315,7 @@ header {
 }
 
 .portfolio-item {
-  display: inline-block;
-  width: calc((100% - 48) / 3);
-  padding-bottom: 32px;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-img {
